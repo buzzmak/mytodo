@@ -503,7 +503,11 @@
       <created>1402649481720</created>
       <updated>1402649481720</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added windows version">
+      <created>1402650489549</created>
+      <updated>1402650489549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
