@@ -14,7 +14,7 @@ module.exports = function(config) {
     // testing framework to use (jasmine/mocha/qunit/...)
     frameworks: ['jasmine'],
 
-    reporters: ['dots', 'junit'],
+    reporters: ['dots', 'unit'],
 
         junitReporter: {
             outputFile: 'test-results.xml'
