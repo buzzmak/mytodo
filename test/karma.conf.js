@@ -14,7 +14,7 @@ module.exports = function(config) {
     // testing framework to use (jasmine/mocha/qunit/...)
     frameworks: ['jasmine'],
 
-    reporters: ['dots', 'unit'],
+    reporters: ['dots', 'junit'],
 
         junitReporter: {
             outputFile: 'test-results.xml'
@@ -55,9 +55,10 @@ module.exports = function(config) {
 
     // Which plugins to enable
     plugins: [
-      'karma-phantomjs-launcher',
-      'karma-jasmine'
-    ],
+        'karma-jasmine',
+        'karma-junit-reporter',
+        'karma-phantomjs-launcher'
+     ],
 
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
